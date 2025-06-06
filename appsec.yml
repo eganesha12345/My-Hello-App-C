@@ -1,7 +1,5 @@
 version: 0.0
 os: linux
-artifacts:
-  files:
-    - hello-world-app
-  base-directory: $CODEBUILD_SRC_DIR
-  discard-paths: no
+files: 
+ -source: hello-world-app
+  destination: /tmp
