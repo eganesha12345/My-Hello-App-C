@@ -1,5 +1,11 @@
-version: 0.0
-os: linux
-files: 
- -source: '**/*'
-  destination: /tmp
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - gcc -o hello-world-app hello-world.c
+
+artifacts:
+  files:
+    - '**/*'
+    destination: /tmp
