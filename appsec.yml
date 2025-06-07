@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - gcc -o hello-world-app hello-world.c
+      - gcc -o hello-world-app hello-world
 
 artifacts:
   files:
