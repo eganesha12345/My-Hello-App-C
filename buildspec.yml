@@ -5,6 +5,7 @@ phases:
     commands:
       - gcc hello-world.c -o hello-world-app
       - tar -xvf hello-world.tar .
+      - mv hello-world/* ../
       
 artifacts:
   files:
